@@ -1,0 +1,2 @@
+# Placeholder for trained model
+# Replace this with your actual trained model using joblib.dump(model, 'models/baseline.joblib')
