@@ -44,7 +44,7 @@ class HealthResponse(BaseModel):
 @app.get("/health", response_model=HealthResponse)
 def health():
     """Health check endpoint"""
-    return {"status": "ok"}
+    return {"status": "200 OK"}
 
 
 @app.post("/predict", response_model=PredictResponse)
